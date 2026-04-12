@@ -1,0 +1,21 @@
+{
+  "cpu_limit": 85,
+  "ram_limit": 80,
+  "disk_limit": 10,
+  "check_interval": 5,
+
+  "protected_processes": [
+    "System",
+    "explorer.exe",
+    "svchost.exe",
+    "wininit.exe",
+    "csrss.exe"
+  ],
+
+  "protected_drives": ["D:\\", "F:\\"],
+
+  "safe_cleanup_paths": [
+    "C:\\Windows\\Temp",
+    "C:\\Users\\%USERNAME%\\AppData\\Local\\Temp"
+  ]
+}
